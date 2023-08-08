@@ -1,18 +1,40 @@
+
 *{
     padding: 0px;
     margin: 0px;
 }
-.toi{
-    display: flex;
-    justify-content: center;
-    
+body{
+background: rgb(190, 106, 120);
+
 }
+/* .toi{ */
+    /* display: flex;
+    justify-content: center;
+     */
+
 @media (max-width: 295px){
     .button{
         flex-direction: row !important;
     }
-    .h2{
-        padding: 10px 5px !important;
+    h5{
+        /* padding: 10px 5px !important; */
+        border: none;
+    }
+    .row{
+        width: 100%;
+        background-color: yellow;
+    }
+    .col{
+        width: 100%;
+    }
+    .formulaire1{
+        width: 100%;
+    }
+    .formulaire2{
+        width: 100%;
+    }
+    .formulaire3{
+        width: 100%;
     }
 }
 /* .container{
@@ -23,46 +45,63 @@
     height: 100px;
     border-radius: 1px solid;
 } */
-.toi h2{
+.toi h5{
     justify-content: center;
     font-size: 20px;
     color: black;
     text-transform: uppercase;
     letter-spacing: 5px;
-    padding: 2px 10px;
+    padding: 1px 5px;
     display: inline-block;
     margin-bottom: 20px;
     border: 1px solid;
-    text-align: center;
+    /* text-align: center;
+    width: 250px;
+    margin-left: 150px;
+    display: flex; */
+    
 }
-.toi h1{
+.button{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 20%;
+}
+.button3{
+    margin-left: 140px;
+}
+.toi h2{
      font-family: Multi- SemiBold;
-    font-size: 20px;
+    font-size: 40px;
     color: black;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 input{
     padding: 20px;
     margin: 10px;
     border: none;
     border-bottom: 2px solid #e6e6e6;
-    
-    
 }
 radio{
     padding: 20px;
     margin: 10px;
 }
-.toi{
-    position: relative;
-    padding: 60px;
+.form-select {
+    margin-bottom: 2px solid #e6e6e6;
+    padding: 10px;
+    margin: 5px;
+    
+    
+}
+/* .toi{ */
+    /* position: relative; */
+    /* padding: 60px;
     margin: 40px;
     display: flex;
-    justify-content: center;
-    margin-top: 80px;
-    margin-left: 40px;
-}
+    justify-content: center; */
+    /* margin-top: 80px; */
+    /* margin-left: 40px; */
+
 /* .cercle{
     border-radius: 50%;
     background-color: gray;
@@ -70,56 +109,62 @@ radio{
 .moi{
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     display: none;
-    position: relative;
+    /* position: relative; */
     padding: 60px;
     margin: 40px;
     margin-left: 40px;
+
 }
 .soi{
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     display: none;
-    position: relative;
+    /* position: relative; */
     padding: 60px;
     margin: 40px;
+    margin-left: 40px;
 }
-.moi h2{
+.moi h5{
     justify-content: center;
     font-size: 20px;
     color: black;
     text-transform: uppercase;
     letter-spacing: 5px;
-    padding: 5px 15px;
+    padding: 1px 10px;
     display: inline-block;
-    margin-bottom: 50px;
-    border: 2px solid;
-    text-align: center;
-    margin-left: 50px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    /* text-align: center;
+    width: 250px;
+    margin-left: 150px; */
+    /* margin-left: 50px; */
 }
-.moi h1{
+.moi h2{
     font-family: Multi- SemiBold;
     font-size: 40px;
     color: black;
     text-align: center;
     margin-bottom: 20px;
 }
-.soi h2{
+.soi h5{
     justify-content: center;
     font-size: 20px;
     color: black;
     text-transform: uppercase;
     letter-spacing: 5px;
-    padding: 5px 15px;
+    padding: 1px 10px;
     display: inline-block;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     border: 1px solid;
-    text-align: center;
-    margin-left: 50px;
+    /* text-align: center;
+    width: 250px;
+    margin-left: 150px; */
+    /* margin-left: 50px; */
 }
-.soi h1{
+.soi h2{
     font-family: Multi- SemiBold;
     font-size: 40px;
     color: black;
